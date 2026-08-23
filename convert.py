@@ -1,0 +1,1 @@
+def to_env(d): return [f'{k.upper()}={v}' for k,v in d.items()]
